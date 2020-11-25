@@ -1,0 +1,28 @@
+.search {
+    margin: 0px auto;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    padding: 50px 0px;
+}
+.search input {
+    padding: 20px 150px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+}
+.btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+}
+.btn:hover {
+    background-color: rgba(255, 99, 71, 0.651);
+    transition: all .2s;
+}

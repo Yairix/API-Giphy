@@ -1,0 +1,14 @@
+<div class="search">
+    <form>
+      <div class="tabForm">
+          <label>
+            <h3>RESULTADOS PARA <em>"{{ searchTerm }}"</em></h3>
+                  <button class="btn" type="button" (click)="back()">Buscar novamente</button>
+          </label>
+      </div>       
+    </form>
+  </div>
+
+  <div class="gifs">
+    <img *ngFor="let i of gifs.data" [src]="i.images.fixed_width.url">
+  </div>

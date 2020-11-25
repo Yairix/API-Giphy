@@ -1,0 +1,15 @@
+<div class="search">
+  <form #myForm="ngForm" (ngSubmit)="search(myForm.form)">
+    <label>
+      <h3>BUSCA GIFS</h3>
+    </label>
+    <div class="tabForm">
+      <div class="input-field first-wrap">
+        <input id="search" type="text" placeholder="Faça uma pesquiça!" name="searchTerm" [(ngModel)]="searchTerm" />
+      </div>
+      <div>
+        <button class="btn" type="submit">Buscar</button>
+      </div>
+    </div>
+  </form>
+</div>
